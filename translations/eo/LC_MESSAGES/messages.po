@@ -1,0 +1,109 @@
+# Translations template for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# INOPIAE <m.maengel@inopiae.de>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-07-30 05:15+0200\n"
+"PO-Revision-Date: 2020-07-30 12:25+0000\n"
+"Last-Translator: INOPIAE <m.maengel@inopiae.de>, 2020\n"
+"Language-Team: Esperanto (https://www.transifex.com/wpia/teams/112066/eo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/base.html:4 templates/base.html:60
+msgid "Motion list"
+msgstr "Listo de propono"
+
+#: templates/base.html:67
+msgid "User"
+msgstr "Uzanto"
+
+#: templates/base.html:71
+msgid "Language"
+msgstr ""
+
+#: templates/index.html:10
+msgid "Motion title"
+msgstr "Titolo de la propono"
+
+#: templates/index.html:28
+msgid "Motion content"
+msgstr "Teksto de la propono"
+
+#: templates/index.html:29
+msgid "Editing note: Markdown is used formatting."
+msgstr ""
+
+#: templates/index.html:30
+msgid ""
+"To add a line break add two lines, to enter a link use "
+"[text](https//domain.tld/link)"
+msgstr ""
+
+#: templates/index.html:31
+msgid "Submit Motion"
+msgstr "submeti voĉdoni"
+
+#: templates/index.html:38 templates/index.html:40
+msgid "Prev"
+msgstr "reen"
+
+#: templates/index.html:47
+msgid "Next"
+msgstr "antaŭen"
+
+#: templates/motion.html:8
+msgid "Running"
+msgstr "daŭra"
+
+#: templates/motion.html:8 templates/motion.html:14
+msgid "Canceled"
+msgstr "abortitaj"
+
+#: templates/motion.html:8
+msgid "Finished"
+msgstr "kompletigita"
+
+#: templates/motion.html:12
+msgid "Proposed"
+msgstr ""
+
+#: templates/motion.html:12 templates/motion.html:14
+msgid "by"
+msgstr "de"
+
+#: templates/motion.html:16
+msgid "Votes until"
+msgstr "Voĉdonado daŭras ĝis"
+
+#: templates/motion.html:29 templates/single_motion.html:29
+msgid "Cancelation reason"
+msgstr "Nuliga kialo"
+
+#: templates/single_motion.html:3
+msgid "Motion"
+msgstr "Baloto"
+
+#: templates/single_motion.html:10
+msgid "Motion Votes"
+msgstr "Voĉdonaj rolantoj"
+
+#: templates/single_motion.html:30
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: templates/single_motion.html:34
+msgid "Back"
+msgstr "reen"
