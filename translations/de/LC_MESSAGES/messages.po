@@ -5,15 +5,17 @@
 # 
 # Translators:
 # Marcus Mängel <board@wpia.club>, 2020
+# Juergen Bruckner <juergen@bruckner.tk>, 2020
+# INOPIAE <m.maengel@inopiae.de>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-30 05:15+0200\n"
+"POT-Creation-Date: 2020-08-09 05:56+0200\n"
 "PO-Revision-Date: 2020-07-30 12:25+0000\n"
-"Last-Translator: Marcus Mängel <board@wpia.club>, 2020\n"
+"Last-Translator: INOPIAE <m.maengel@inopiae.de>, 2020\n"
 "Language-Team: German (https://www.transifex.com/wpia/teams/112066/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,6 +23,79 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: motion.py:366
+#, python-format
+msgid "Result of motion %(name)s (%(identifier)s)"
+msgstr "Ergebnis der Abstimmung %(name)s (%(identifier)s)"
+
+#: motion.py:389 templates/motion.html:8
+msgid "Finished"
+msgstr "Abgeschlossen"
+
+#: motion.py:391 templates/motion.html:8 templates/motion.html:14
+msgid "Canceled"
+msgstr "Abgebrochen"
+
+#: motion.py:393 templates/motion.html:8
+msgid "Running"
+msgstr "Läuft"
+
+#: motion.py:400
+#, python-format
+msgid "Proposed: %(time)s (UTC) by %(by)s"
+msgstr "Angelegt: %(time)s (UTC) von %(by)s"
+
+#: motion.py:402
+#, python-format
+msgid "Canceled: %(time)s (UTC) by %(by)s"
+msgstr "Abgebrochen: %(time)s (UTC) von %(by)s"
+
+#: motion.py:404
+#, python-format
+msgid "Votes until: %(time)s (UTC)"
+msgstr "Abstimmung läuft bis: %(time)s (UTC)"
+
+#: motion.py:417
+msgid "Votes"
+msgstr "Stimmen"
+
+#: motion.py:422
+msgid "Running motion, no data is displayed"
+msgstr "Laufende Abstimmung, es werden keine Daten angezeigt"
+
+#: motion.py:426
+msgid "vote"
+msgstr "vote"
+
+#: motion.py:431
+msgid "Total"
+msgstr "Gesamt"
+
+#: motion.py:436
+msgid "No votes given"
+msgstr "Keine Stimmen vorhanden"
+
+#: motion.py:443
+msgid "Motion votes"
+msgstr "Einzelne Stimmen"
+
+#: motion.py:453
+msgid "- continued on next page -"
+msgstr "- wird auf der nächsten Seite fortgeführt. -"
+
+#: motion.py:458
+msgid "Motion votes continued"
+msgstr "Einzelstimmen Fortsetzung"
+
+#: motion.py:463
+msgid "- End of data - "
+msgstr "- ende der Daten -"
+
+#: motion.py:465
+#, python-format
+msgid "Report generated %(time)s (UTC)"
+msgstr "Bericht wurde erstellt:  %(time)s (UTC)"
 
 #: templates/base.html:4 templates/base.html:60
 msgid "Motion list"
@@ -56,7 +131,7 @@ msgstr ""
 
 #: templates/index.html:31
 msgid "Submit Motion"
-msgstr "Antrag anlegen"
+msgstr "Abstimmung anlegen"
 
 #: templates/index.html:38 templates/index.html:40
 msgid "Prev"
@@ -66,17 +141,13 @@ msgstr "Zurück"
 msgid "Next"
 msgstr "Weiter"
 
-#: templates/motion.html:8
-msgid "Running"
-msgstr "Läuft"
+#: templates/motion.html:10
+msgid "Vote"
+msgstr "Stimme"
 
-#: templates/motion.html:8 templates/motion.html:14
-msgid "Canceled"
-msgstr "Abgebrochen"
-
-#: templates/motion.html:8
-msgid "Finished"
-msgstr "Abgeschlossen"
+#: templates/motion.html:10
+msgid "Result"
+msgstr "Ergebnis"
 
 #: templates/motion.html:12
 msgid "Proposed"
@@ -90,13 +161,13 @@ msgstr "durch"
 msgid "Votes until"
 msgstr "Abstimmung läuft bis"
 
-#: templates/motion.html:29 templates/single_motion.html:29
+#: templates/motion.html:32 templates/single_motion.html:29
 msgid "Cancelation reason"
 msgstr "Abbruchgrund"
 
 #: templates/single_motion.html:3
 msgid "Motion"
-msgstr "Antrag"
+msgstr "Abstimmung"
 
 #: templates/single_motion.html:10
 msgid "Motion Votes"
@@ -106,6 +177,6 @@ msgstr "Abgegebene Stimmen"
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: templates/single_motion.html:34
-msgid "Back"
-msgstr "Zurück"
+#: templates/single_motion.html:35
+msgid "Finish"
+msgstr "Abschließen"
