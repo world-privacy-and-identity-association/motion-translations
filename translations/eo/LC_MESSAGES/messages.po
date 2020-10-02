@@ -5,15 +5,16 @@
 # 
 # Translators:
 # INOPIAE <m.maengel@inopiae.de>, 2020
+# Juergen Bruckner <microangelo@microangelo.priv.at>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-30 05:15+0200\n"
+"POT-Creation-Date: 2020-08-09 05:56+0200\n"
 "PO-Revision-Date: 2020-07-30 12:25+0000\n"
-"Last-Translator: INOPIAE <m.maengel@inopiae.de>, 2020\n"
+"Last-Translator: Juergen Bruckner <microangelo@microangelo.priv.at>, 2020\n"
 "Language-Team: Esperanto (https://www.transifex.com/wpia/teams/112066/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,6 +22,79 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 "Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: motion.py:366
+#, python-format
+msgid "Result of motion %(name)s (%(identifier)s)"
+msgstr "Rezulto de la voĉdono %(name)s (%(identifier)s)"
+
+#: motion.py:389 templates/motion.html:8
+msgid "Finished"
+msgstr "kompletigita"
+
+#: motion.py:391 templates/motion.html:8 templates/motion.html:14
+msgid "Canceled"
+msgstr "abortitaj"
+
+#: motion.py:393 templates/motion.html:8
+msgid "Running"
+msgstr "daŭra"
+
+#: motion.py:400
+#, python-format
+msgid "Proposed: %(time)s (UTC) by %(by)s"
+msgstr "Sugestis: %(time)s (UTC) de %(by)s"
+
+#: motion.py:402
+#, python-format
+msgid "Canceled: %(time)s (UTC) by %(by)s"
+msgstr "Nuligita: %(time)s (UTC) de %(by)s"
+
+#: motion.py:404
+#, python-format
+msgid "Votes until: %(time)s (UTC)"
+msgstr "Voĉdonado daŭras ĝis: %(time)s (UTC)"
+
+#: motion.py:417
+msgid "Votes"
+msgstr "Voĉdonoj"
+
+#: motion.py:422
+msgid "Running motion, no data is displayed"
+msgstr "Daŭra voĉdonado, neniuj datumoj montriĝas"
+
+#: motion.py:426
+msgid "vote"
+msgstr "Voĉdonu"
+
+#: motion.py:431
+msgid "Total"
+msgstr "Entute"
+
+#: motion.py:436
+msgid "No votes given"
+msgstr "Neniuj voĉdonoj donitaj"
+
+#: motion.py:443
+msgid "Motion votes"
+msgstr "Movaj voĉdonoj"
+
+#: motion.py:453
+msgid "- continued on next page -"
+msgstr "-daŭrigis en sekva paĝo-"
+
+#: motion.py:458
+msgid "Motion votes continued"
+msgstr "Moviĝaj voĉdonoj daŭris"
+
+#: motion.py:463
+msgid "- End of data - "
+msgstr "-Fino de Datumoj-"
+
+#: motion.py:465
+#, python-format
+msgid "Report generated %(time)s (UTC)"
+msgstr "Raporto generita %(time)s (UTC)"
 
 #: templates/base.html:4 templates/base.html:60
 msgid "Motion list"
@@ -32,7 +106,7 @@ msgstr "Uzanto"
 
 #: templates/base.html:71
 msgid "Language"
-msgstr ""
+msgstr "Lingvo"
 
 #: templates/index.html:10
 msgid "Motion title"
@@ -44,13 +118,15 @@ msgstr "Teksto de la propono"
 
 #: templates/index.html:29
 msgid "Editing note: Markdown is used formatting."
-msgstr ""
+msgstr "Redaktanta noto: Markdown estas uzata por formatado."
 
 #: templates/index.html:30
 msgid ""
 "To add a line break add two lines, to enter a link use "
 "[text](https//domain.tld/link)"
 msgstr ""
+"Por aldoni linĉon, aldonu du liniojn, por enigi ligilon uzi [tekston](https:"
+" //domain.tld/link)"
 
 #: templates/index.html:31
 msgid "Submit Motion"
@@ -64,21 +140,17 @@ msgstr "reen"
 msgid "Next"
 msgstr "antaŭen"
 
-#: templates/motion.html:8
-msgid "Running"
-msgstr "daŭra"
+#: templates/motion.html:10
+msgid "Vote"
+msgstr "Voĉdonu"
 
-#: templates/motion.html:8 templates/motion.html:14
-msgid "Canceled"
-msgstr "abortitaj"
-
-#: templates/motion.html:8
-msgid "Finished"
-msgstr "kompletigita"
+#: templates/motion.html:10
+msgid "Result"
+msgstr "Rezulto"
 
 #: templates/motion.html:12
 msgid "Proposed"
-msgstr ""
+msgstr "sugestis"
 
 #: templates/motion.html:12 templates/motion.html:14
 msgid "by"
@@ -88,7 +160,7 @@ msgstr "de"
 msgid "Votes until"
 msgstr "Voĉdonado daŭras ĝis"
 
-#: templates/motion.html:29 templates/single_motion.html:29
+#: templates/motion.html:32 templates/single_motion.html:29
 msgid "Cancelation reason"
 msgstr "Nuliga kialo"
 
@@ -104,6 +176,6 @@ msgstr "Voĉdonaj rolantoj"
 msgid "Cancel"
 msgstr "Nuligi"
 
-#: templates/single_motion.html:34
-msgid "Back"
-msgstr "reen"
+#: templates/single_motion.html:35
+msgid "Finish"
+msgstr "Kompletigita"

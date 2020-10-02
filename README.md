@@ -4,7 +4,7 @@ This repository holds the translation files of WPIA motion tool which are transl
 
 Gigi: https://code.wpia.club
 
-Transifex: https://www.transifex.com/wpia/gigi/
+Transifex: https://www.transifex.com/wpia/motion/
 
 To push and pull the data from the server the transifex command line tool can be used.
 
