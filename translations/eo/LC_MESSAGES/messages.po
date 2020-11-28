@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-08-09 05:56+0200\n"
+"POT-Creation-Date: 2020-11-20 05:25+0100\n"
 "PO-Revision-Date: 2020-07-30 12:25+0000\n"
 "Last-Translator: Juergen Bruckner <microangelo@microangelo.priv.at>, 2020\n"
 "Language-Team: Esperanto (https://www.transifex.com/wpia/teams/112066/eo/)\n"
@@ -23,90 +23,119 @@ msgstr ""
 "Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: motion.py:366
+#: motion.py:28
+msgid "yes"
+msgstr "jes"
+
+#: motion.py:28
+msgid "no"
+msgstr "ne"
+
+#: motion.py:28
+msgid "abstain"
+msgstr "sindeteni"
+
+#: motion.py:103
+msgid "Server misconfigured"
+msgstr "Servilo misagordita"
+
+#: motion.py:107
+msgid "Access denied"
+msgstr "Aliro rifuzita"
+
+#: motion.py:274 motion.py:314 motion.py:398 motion.py:404 motion.py:430
+#: motion.py:438
+msgid "Forbidden"
+msgstr "malpermesita"
+
+#: motion.py:277
+msgid "Error, invalid length"
+msgstr "Eraro, nevalida longo"
+
+#: motion.py:281
+msgid "Error, missing title"
+msgstr "Eraro, mankas titolo"
+
+#: motion.py:285
+msgid "Error, missing content"
+msgstr "Eraro, mankas enhavo"
+
+#: motion.py:311 motion.py:356
+msgid "Error, Not found"
+msgstr "Eraro, ne trovita"
+
+#: motion.py:316
+msgid "Error, motion was canceled"
+msgstr "Eraro, voĉdonado estis nuligita"
+
+#: motion.py:318
+msgid "Error, out of time"
+msgstr "Eraro, sen tempo"
+
+#: motion.py:337
+msgid "Error, form requires reason"
+msgstr "Eraro, formo postulas kialon"
+
+#: motion.py:385 motion.py:415
+msgid "Error, proxy not found."
+msgstr "Eraro, prokurilo ne trovita"
+
+#: motion.py:408
+msgid "Error, voter equals proxy."
+msgstr "Eraro, voĉdonanto egalas prokurilon"
+
+#: motion.py:411
+msgid "Error, voter not found."
+msgstr "Eraro, voĉdonanto ne trovita"
+
+#: motion.py:419
+msgid "Error, proxy allready given."
+msgstr "Eraro, prokurilo jam donita"
+
+#: motion.py:423
 #, python-format
-msgid "Result of motion %(name)s (%(identifier)s)"
-msgstr "Rezulto de la voĉdono %(name)s (%(identifier)s)"
+msgid "Error, Max proxy for '%s' reached."
+msgstr "Eraro, Maksimuma prokurilo por '%s' atingis."
 
-#: motion.py:389 templates/motion.html:8
-msgid "Finished"
-msgstr "kompletigita"
-
-#: motion.py:391 templates/motion.html:8 templates/motion.html:14
-msgid "Canceled"
-msgstr "abortitaj"
-
-#: motion.py:393 templates/motion.html:8
-msgid "Running"
-msgstr "daŭra"
-
-#: motion.py:400
-#, python-format
-msgid "Proposed: %(time)s (UTC) by %(by)s"
-msgstr "Sugestis: %(time)s (UTC) de %(by)s"
-
-#: motion.py:402
-#, python-format
-msgid "Canceled: %(time)s (UTC) by %(by)s"
-msgstr "Nuligita: %(time)s (UTC) de %(by)s"
-
-#: motion.py:404
-#, python-format
-msgid "Votes until: %(time)s (UTC)"
-msgstr "Voĉdonado daŭras ĝis: %(time)s (UTC)"
-
-#: motion.py:417
-msgid "Votes"
-msgstr "Voĉdonoj"
-
-#: motion.py:422
-msgid "Running motion, no data is displayed"
-msgstr "Daŭra voĉdonado, neniuj datumoj montriĝas"
-
-#: motion.py:426
-msgid "vote"
-msgstr "Voĉdonu"
-
-#: motion.py:431
-msgid "Total"
-msgstr "Entute"
-
-#: motion.py:436
-msgid "No votes given"
-msgstr "Neniuj voĉdonoj donitaj"
-
-#: motion.py:443
-msgid "Motion votes"
-msgstr "Movaj voĉdonoj"
-
-#: motion.py:453
-msgid "- continued on next page -"
-msgstr "-daŭrigis en sekva paĝo-"
-
-#: motion.py:458
-msgid "Motion votes continued"
-msgstr "Moviĝaj voĉdonoj daŭris"
-
-#: motion.py:463
-msgid "- End of data - "
-msgstr "-Fino de Datumoj-"
-
-#: motion.py:465
-#, python-format
-msgid "Report generated %(time)s (UTC)"
-msgstr "Raporto generita %(time)s (UTC)"
-
-#: templates/base.html:4 templates/base.html:60
+#: templates/base.html:4 templates/base.html:63
 msgid "Motion list"
 msgstr "Listo de propono"
 
-#: templates/base.html:67
+#: templates/base.html:70
+msgid "Home"
+msgstr "Hejmpaĝo"
+
+#: templates/base.html:74
+msgid "Proxy management"
+msgstr "Prokura mastrumado"
+
+#: templates/base.html:78
 msgid "User"
 msgstr "Uzanto"
 
-#: templates/base.html:71
+#: templates/base.html:80
+msgid "proxy granted to"
+msgstr "prokurilo donita al"
+
+#: templates/base.html:83
+msgid "holds proxy of"
+msgstr "tenas prokurilon de"
+
+#: templates/base.html:89
 msgid "Language"
 msgstr "Lingvo"
+
+#: templates/base.html:105
+msgid "Copyright"
+msgstr "Kopirajto"
+
+#: templates/base.html:106
+msgid "Imprint"
+msgstr "Premsigno"
+
+#: templates/base.html:107
+msgid "Data protection"
+msgstr "Datuma protekto"
 
 #: templates/index.html:10
 msgid "Motion title"
@@ -125,8 +154,8 @@ msgid ""
 "To add a line break add two lines, to enter a link use "
 "[text](https//domain.tld/link)"
 msgstr ""
-"Por aldoni linĉon, aldonu du liniojn, por enigi ligilon uzi [tekston](https:"
-" //domain.tld/link)"
+"Por aldoni linĉon, aldonu du liniojn, por enigi ligilon uzi "
+"[tekston](https://domain.tld/link)"
 
 #: templates/index.html:31
 msgid "Submit Motion"
@@ -140,29 +169,71 @@ msgstr "reen"
 msgid "Next"
 msgstr "antaŭen"
 
-#: templates/motion.html:10
+#: templates/motion.html:8
+msgid "Running"
+msgstr "daŭra"
+
+#: templates/motion.html:8 templates/motion.html:18
+msgid "Canceled"
+msgstr "abortitaj"
+
+#: templates/motion.html:8
+msgid "Finished"
+msgstr "kompletigita"
+
+#: templates/motion.html:12
 msgid "Vote"
 msgstr "Voĉdonu"
 
-#: templates/motion.html:10
+#: templates/motion.html:12
 msgid "Result"
 msgstr "Rezulto"
 
-#: templates/motion.html:12
+#: templates/motion.html:16
 msgid "Proposed"
 msgstr "sugestis"
 
-#: templates/motion.html:12 templates/motion.html:14
-msgid "by"
-msgstr "de"
+#: templates/motion.html:16 templates/motion.html:18
+#, python-format
+msgid "%(dt)s (UTC) by %(user)s"
+msgstr "%(dt)s (UTC) de %(user)s"
 
-#: templates/motion.html:16
+#: templates/motion.html:20
 msgid "Votes until"
 msgstr "Voĉdonado daŭras ĝis"
 
-#: templates/motion.html:32 templates/single_motion.html:29
+#: templates/motion.html:20
+#, python-format
+msgid "%(dt)s (UTC)"
+msgstr "%(dt)s (UTC)"
+
+#: templates/motion.html:34 templates/single_motion.html:51
 msgid "Cancelation reason"
 msgstr "Nuliga kialo"
+
+#: templates/proxy.html:7 templates/proxy.html:41
+msgid "Voter"
+msgstr "Voĉdonanto"
+
+#: templates/proxy.html:8 templates/proxy.html:42
+msgid "Proxy"
+msgstr "Prokurilo"
+
+#: templates/proxy.html:27
+msgid "Add"
+msgstr "Aldoni"
+
+#: templates/proxy.html:36
+msgid "Granted Proxies"
+msgstr "Donitaj Prokuriloj"
+
+#: templates/proxy.html:49
+msgid "Revoke"
+msgstr "Retiriĝi"
+
+#: templates/proxy.html:58
+msgid "Revoke all"
+msgstr "Revoki ĉiujn"
 
 #: templates/single_motion.html:3
 msgid "Motion"
@@ -172,10 +243,33 @@ msgstr "Baloto"
 msgid "Motion Votes"
 msgstr "Voĉdonaj rolantoj"
 
-#: templates/single_motion.html:30
+#: templates/single_motion.html:25
+msgid "My vote"
+msgstr "mia Voĉdono"
+
+#: templates/single_motion.html:27
+#, python-format
+msgid "Given by %(pn)s"
+msgstr "Donita de %(pn)s"
+
+#: templates/single_motion.html:37
+#, python-format
+msgid "Vote for %(email)s"
+msgstr "Voĉdoni por %(email)s"
+
+#: templates/single_motion.html:39
+#, python-format
+msgid "Voted by %(email)s"
+msgstr "Voĉdonita de %(email)s"
+
+#: templates/single_motion.html:52
 msgid "Cancel"
 msgstr "Nuligi"
 
-#: templates/single_motion.html:35
+#: templates/single_motion.html:57
 msgid "Finish"
 msgstr "Kompletigita"
+
+#: templates/single_motion.html:61
+msgid "Back"
+msgstr "Reen"

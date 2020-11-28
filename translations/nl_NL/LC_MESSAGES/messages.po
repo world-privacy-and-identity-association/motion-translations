@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# Marcus Mängel <board@wpia.club>, 2020
+# Frits Janssen <frits@gmx.at>, 2020
+# Frits Janssen <info@freifunk.club>, 2020
 # Juergen Bruckner <microangelo@microangelo.priv.at>, 2020
-# INOPIAE <m.maengel@inopiae.de>, 2020
 # 
 #, fuzzy
 msgid ""
@@ -15,262 +15,262 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-11-20 05:25+0100\n"
 "PO-Revision-Date: 2020-07-30 12:25+0000\n"
-"Last-Translator: INOPIAE <m.maengel@inopiae.de>, 2020\n"
-"Language-Team: German (https://www.transifex.com/wpia/teams/112066/de/)\n"
+"Last-Translator: Juergen Bruckner <microangelo@microangelo.priv.at>, 2020\n"
+"Language-Team: Dutch (Netherlands) (https://www.transifex.com/wpia/teams/112066/nl_NL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
-"Language: de\n"
+"Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: motion.py:28
 msgid "yes"
-msgstr "ja"
+msgstr "Ja"
 
 #: motion.py:28
 msgid "no"
-msgstr "nein"
+msgstr "nee"
 
 #: motion.py:28
 msgid "abstain"
-msgstr "Enthaltung"
+msgstr "zich onthouden"
 
 #: motion.py:103
 msgid "Server misconfigured"
-msgstr "Server falsch konfiguriert"
+msgstr "server verkeerd geconfigureerd"
 
 #: motion.py:107
 msgid "Access denied"
-msgstr "Zugang abgelehnt"
+msgstr "toegang geweigerd"
 
 #: motion.py:274 motion.py:314 motion.py:398 motion.py:404 motion.py:430
 #: motion.py:438
 msgid "Forbidden"
-msgstr "Verboten"
+msgstr "verboden"
 
 #: motion.py:277
 msgid "Error, invalid length"
-msgstr "Fehler, ungültige Länge"
+msgstr "fout, ongeldige lengte"
 
 #: motion.py:281
 msgid "Error, missing title"
-msgstr "Fehler, fehlender Titel"
+msgstr "fout, bestand ontbreekt"
 
 #: motion.py:285
 msgid "Error, missing content"
-msgstr "Fehler, fehlender Inhalt"
+msgstr "fout, ontbrekende inhoud"
 
 #: motion.py:311 motion.py:356
 msgid "Error, Not found"
-msgstr "Fehler, nicht gefunden"
+msgstr "fout, niet gevonden"
 
 #: motion.py:316
 msgid "Error, motion was canceled"
-msgstr "Fehler, Abstimmung wurde abgebrochen"
+msgstr "fout, beweging werd annuleerd"
 
 #: motion.py:318
 msgid "Error, out of time"
-msgstr "Fehler, außerhalb der Zeit"
+msgstr "fout, geen tijd mer "
 
 #: motion.py:337
 msgid "Error, form requires reason"
-msgstr "Fehler, Formular benötigt Grund"
+msgstr "fout, vorm vereist reden"
 
 #: motion.py:385 motion.py:415
 msgid "Error, proxy not found."
-msgstr "Fehler, Proxy nicht gefunden."
+msgstr "fout, proxy niet gevonden"
 
 #: motion.py:408
 msgid "Error, voter equals proxy."
-msgstr "Fehler, Wähler gleich Proxy."
+msgstr "fout, stemmer is gelijk aan proxy"
 
 #: motion.py:411
 msgid "Error, voter not found."
-msgstr "Error, Wähler nicht gefunden."
+msgstr "fout, stemmer niet gevonden"
 
 #: motion.py:419
 msgid "Error, proxy allready given."
-msgstr "Fehler, Proxy schon gegeben."
+msgstr "fout, stem al gegeven"
 
 #: motion.py:423
 #, python-format
 msgid "Error, Max proxy for '%s' reached."
-msgstr "Fehler, maximale Anzahl der Proxy von '%s' erreicht."
+msgstr "fout, maximale stem %s bereikt"
 
 #: templates/base.html:4 templates/base.html:63
 msgid "Motion list"
-msgstr "Liste der Anträge"
+msgstr "Motie lijst"
 
 #: templates/base.html:70
 msgid "Home"
-msgstr "Startseite"
+msgstr "thuis (home)"
 
 #: templates/base.html:74
 msgid "Proxy management"
-msgstr "Proxyverwaltung"
+msgstr "proxy beheer"
 
 #: templates/base.html:78
 msgid "User"
-msgstr "Benutzer"
+msgstr "Gebruiker"
 
 #: templates/base.html:80
 msgid "proxy granted to"
-msgstr "Proxy gegeben an"
+msgstr "volmacht verleend aan"
 
 #: templates/base.html:83
 msgid "holds proxy of"
-msgstr "Hält Proxy von"
+msgstr "volmacht houden van"
 
 #: templates/base.html:89
 msgid "Language"
-msgstr "Sprache"
+msgstr "taal"
 
 #: templates/base.html:105
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "copyright"
 
 #: templates/base.html:106
 msgid "Imprint"
-msgstr "Impressum"
+msgstr "afdruk"
 
 #: templates/base.html:107
 msgid "Data protection"
-msgstr "Datenschutz"
+msgstr "gegevens bescherming"
 
 #: templates/index.html:10
 msgid "Motion title"
-msgstr "Antragstitel"
+msgstr "Motie titel"
 
 #: templates/index.html:28
 msgid "Motion content"
-msgstr "Antragstext"
+msgstr "Motie inhoud"
 
 #: templates/index.html:29
 msgid "Editing note: Markdown is used formatting."
-msgstr "Bearbeitungshinweis: Der Text kann mit Markdown formatiert werden."
+msgstr "Opmerking bewerken: Markdown wordt gebruikt"
 
 #: templates/index.html:30
 msgid ""
 "To add a line break add two lines, to enter a link use "
 "[text](https//domain.tld/link)"
 msgstr ""
-"Für einen Zeilenumbruch zwei Zeilen eingeben, für einen Link wird "
-"[Text](https://domain.tld/link) genutzt."
+"Om een regeleinde toe te voegen, voegt u twee regels toe, om een link in te "
+"voeren [text](https://domain.tld/link)"
 
 #: templates/index.html:31
 msgid "Submit Motion"
-msgstr "Abstimmung anlegen"
+msgstr "Dien beweging in"
 
 #: templates/index.html:38 templates/index.html:40
 msgid "Prev"
-msgstr "Zurück"
+msgstr "Vorige"
 
 #: templates/index.html:47
 msgid "Next"
-msgstr "Weiter"
+msgstr "Volgende"
 
 #: templates/motion.html:8
 msgid "Running"
-msgstr "Läuft"
+msgstr "Loopt"
 
 #: templates/motion.html:8 templates/motion.html:18
 msgid "Canceled"
-msgstr "Abgebrochen"
+msgstr "Annuleren"
 
 #: templates/motion.html:8
 msgid "Finished"
-msgstr "Abgeschlossen"
+msgstr "Klaar"
 
 #: templates/motion.html:12
 msgid "Vote"
-msgstr "Abstimmung"
+msgstr "Stemmen"
 
 #: templates/motion.html:12
 msgid "Result"
-msgstr "Ergebnis"
+msgstr "Resultaat"
 
 #: templates/motion.html:16
 msgid "Proposed"
-msgstr "Angelegt"
+msgstr "Voorgesteld"
 
 #: templates/motion.html:16 templates/motion.html:18
 #, python-format
 msgid "%(dt)s (UTC) by %(user)s"
-msgstr "%(dt)s (UTC) von %(user)s"
+msgstr "%(dt)s (UTC) door %(user)s"
 
 #: templates/motion.html:20
 msgid "Votes until"
-msgstr "Abstimmung läuft bis"
+msgstr "stemmen tot"
 
 #: templates/motion.html:20
 #, python-format
 msgid "%(dt)s (UTC)"
-msgstr "%(dt)s (UTC)"
+msgstr "%(dt)s GMT"
 
 #: templates/motion.html:34 templates/single_motion.html:51
 msgid "Cancelation reason"
-msgstr "Abbruchgrund"
+msgstr "Annulerings reden"
 
 #: templates/proxy.html:7 templates/proxy.html:41
 msgid "Voter"
-msgstr "Wähler"
+msgstr "kiezer"
 
 #: templates/proxy.html:8 templates/proxy.html:42
 msgid "Proxy"
-msgstr "Proxy"
+msgstr "proxy"
 
 #: templates/proxy.html:27
 msgid "Add"
-msgstr "Hinzufügen"
+msgstr "toevoegen"
 
 #: templates/proxy.html:36
 msgid "Granted Proxies"
-msgstr "Vorhandenen Proxy"
+msgstr "verleende volmachten"
 
 #: templates/proxy.html:49
 msgid "Revoke"
-msgstr "Widerrufen"
+msgstr "intrekken"
 
 #: templates/proxy.html:58
 msgid "Revoke all"
-msgstr "Alle widerrufen"
+msgstr "alles terugtrekken"
 
 #: templates/single_motion.html:3
 msgid "Motion"
-msgstr "Abstimmung"
+msgstr "Beweging"
 
 #: templates/single_motion.html:10
 msgid "Motion Votes"
-msgstr "Abgegebene Stimmen"
+msgstr "Motie stemmen"
 
 #: templates/single_motion.html:25
 msgid "My vote"
-msgstr "Meine Stimme"
+msgstr "mijn stem"
 
 #: templates/single_motion.html:27
 #, python-format
 msgid "Given by %(pn)s"
-msgstr "Abgegeben durch %(pn)s"
+msgstr "gegeven door %(pn)s"
 
 #: templates/single_motion.html:37
 #, python-format
 msgid "Vote for %(email)s"
-msgstr "Abstimmung für %(email)s"
+msgstr "stem voor  %(email)s"
 
 #: templates/single_motion.html:39
 #, python-format
 msgid "Voted by %(email)s"
-msgstr "Abgestimmt durch %(email)s"
+msgstr "gestemd door %(email)s"
 
 #: templates/single_motion.html:52
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "Annuleren"
 
 #: templates/single_motion.html:57
 msgid "Finish"
-msgstr "Abschließen"
+msgstr "Einde"
 
 #: templates/single_motion.html:61
 msgid "Back"
-msgstr "Zurück"
+msgstr "terug"
