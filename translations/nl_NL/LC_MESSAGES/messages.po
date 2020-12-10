@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-11-20 05:25+0100\n"
+"POT-Creation-Date: 2020-12-10 06:57+0100\n"
 "PO-Revision-Date: 2020-07-30 12:25+0000\n"
 "Last-Translator: Juergen Bruckner <microangelo@microangelo.priv.at>, 2020\n"
 "Language-Team: Dutch (Netherlands) (https://www.transifex.com/wpia/teams/112066/nl_NL/)\n"
@@ -24,79 +24,89 @@ msgstr ""
 "Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: motion.py:28
+#: motion.py:82
 msgid "yes"
 msgstr "Ja"
 
-#: motion.py:28
+#: motion.py:82
 msgid "no"
 msgstr "nee"
 
-#: motion.py:28
+#: motion.py:82
 msgid "abstain"
 msgstr "zich onthouden"
 
-#: motion.py:103
+#: motion.py:106
 msgid "Server misconfigured"
 msgstr "server verkeerd geconfigureerd"
 
-#: motion.py:107
+#: motion.py:110
 msgid "Access denied"
 msgstr "toegang geweigerd"
 
-#: motion.py:274 motion.py:314 motion.py:398 motion.py:404 motion.py:430
-#: motion.py:438
+#: motion.py:277 motion.py:317 motion.py:401 motion.py:407 motion.py:433
+#: motion.py:441
 msgid "Forbidden"
 msgstr "verboden"
 
-#: motion.py:277
+#: motion.py:280
 msgid "Error, invalid length"
 msgstr "fout, ongeldige lengte"
 
-#: motion.py:281
+#: motion.py:284
 msgid "Error, missing title"
 msgstr "fout, bestand ontbreekt"
 
-#: motion.py:285
+#: motion.py:288
 msgid "Error, missing content"
 msgstr "fout, ontbrekende inhoud"
 
-#: motion.py:311 motion.py:356
+#: motion.py:314 motion.py:359
 msgid "Error, Not found"
 msgstr "fout, niet gevonden"
 
-#: motion.py:316
+#: motion.py:319
 msgid "Error, motion was canceled"
 msgstr "fout, beweging werd annuleerd"
 
-#: motion.py:318
+#: motion.py:321
 msgid "Error, out of time"
 msgstr "fout, geen tijd mer "
 
-#: motion.py:337
+#: motion.py:340
 msgid "Error, form requires reason"
 msgstr "fout, vorm vereist reden"
 
-#: motion.py:385 motion.py:415
+#: motion.py:388 motion.py:418
 msgid "Error, proxy not found."
 msgstr "fout, proxy niet gevonden"
 
-#: motion.py:408
+#: motion.py:411
 msgid "Error, voter equals proxy."
 msgstr "fout, stemmer is gelijk aan proxy"
 
-#: motion.py:411
+#: motion.py:414
 msgid "Error, voter not found."
 msgstr "fout, stemmer niet gevonden"
 
-#: motion.py:419
+#: motion.py:422
 msgid "Error, proxy allready given."
 msgstr "fout, stem al gegeven"
 
-#: motion.py:423
+#: motion.py:426
 #, python-format
 msgid "Error, Max proxy for '%s' reached."
 msgstr "fout, maximale stem %s bereikt"
+
+#: motion.py:456
+#, python-format
+msgid "User '%s' already exists."
+msgstr ""
+
+#: motion.py:459
+#, python-format
+msgid "User '%s' inserted."
+msgstr ""
 
 #: templates/base.html:4 templates/base.html:63
 msgid "Motion list"
